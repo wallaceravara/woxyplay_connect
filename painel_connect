@@ -17,4 +17,4 @@ ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 apt-get install libssh2-1-dev libssh2-php -y
 php -m |grep ssh2
 service apache2 restart
-fi
+apt-get install unzip -y
